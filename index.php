@@ -8,9 +8,14 @@ class Github{
 			$this->setArray($array);
 	}
 	
-
+	
 	function setArray($array){
 		$this->array = $array; 
+	}
+
+
+	function print_array(){
+		print_r($this->array);
 	}
 
 }
